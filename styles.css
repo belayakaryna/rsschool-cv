@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+	background-color: #BC8F8F;
+}
+
+.cv{
+	display: flex;
+	margin: 20px auto;
+	width: 1000px;
+	background: #fff;	
+}
+
+.left_part{
+	width: 250px;
+	padding: 0 20px;
+	background: #2F4F4F;
+	
+}
+
+.right_part{
+	width: calc(100% - 250px);
+}
+.contacts{
+	padding-bottom: 20px;
+}
+.left_part .logo{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.left_part .logo img{
+	width: 200px;
+	border-radius: 100px;
+}
+
+
+
+
+.title{
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 12px;
+	color: black;
+	position: relative;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 50px;
+	height: 3px;
+	background: black;
+}
+
+mark {
+    background: #ffec82;
+}
+.english{
+	text-align: center;
+}
+
+h5{
+	font-size: 20px;
+	color: lightslategray;
+	text-align: center;
+}
+
+
+
+h6{
+	font-size: 16px;
+	background: #6A5ACD;
+
+}
+
+pre{
+	display:flex
+}
+
+
+
+
+
+.footer{
+	text-align: center;
+}
+
+footer{
+	background:#708090;
+	padding: 15px 30px;
+	height: 100px;
+}
+
+
+.header{
+	background:#708090;
+	padding: 15px 30px;
+	color: #fff;
+	height: 240px;
+}
+
+.header .name{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color:white;
+	text-align: right;
+}
+
+.header .summary{
+	font-weight: 300;
+	font-size: 20px;
+	color:whitesmoke;
+	text-align: left;
+	text-transform: initial;
+
+}
+
+.header .about{
+	margin-top: 20px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.main{
+	padding: 30px;
+	color: #292b2f;
+}
+
+.main .education{
+	margin-top: 30px;
+}
+
+.main .li_wrap{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.main .li_wrap .ed {
+    width: 125px;
+    color: #708090;
+}
+
+.main .li_wrap .info{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position: relative;
+}
+
+.main .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #708090;
+}
+
+.ex_code{
+	width: 500px;
+	background: #FAF0E6;
+	margin-top: 5px;
+}
+
+.main .li_wrap .info_info{
+	margin-top: 15px;
+}
+
+.main .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background:#708090;
+	border-radius: 50%;
+}
+
+.main .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #708090;
+}
+
+
